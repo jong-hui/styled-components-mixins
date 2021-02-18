@@ -19,11 +19,11 @@ npm install styled-components-mixins
 
 ```typescript
 const RowList = styled.div`
-  ${styleMixins(['flexRow'])}
+  ${styleMixins(['flexRow'])} // or styleMixins('flexRow')
 `
 
 const ListItem = styled.p`
-  ${styleMixins(['typo-body1'])};
+  ${styleMixins(['typo-body1'])}; // or styleMixins('typo-body1')
   color: blue;
 `
 
